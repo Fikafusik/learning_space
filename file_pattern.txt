@@ -1,0 +1,24 @@
+#pragma once
+
+// standard library headers
+
+#include <algorithm>
+#include <vector>
+
+// non-standard headers
+
+#include "csv/record.hpp"
+
+// forward declaration
+
+class csv_t;
+class quoted_policy_t;
+
+// class specifiction
+
+class reader_t {
+public:
+
+private:
+    record_t m_some_data;
+};
